@@ -1,0 +1,12 @@
+{
+  "name": "javascript-fundamentals",
+  "version": "1.0.0",
+  "description": "This year, I'm going back to the basics as part of my personal development and growth",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Diter Terrones <hola@diterterrones.com>",
+  "license": "ISC"
+}
