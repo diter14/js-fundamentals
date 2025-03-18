@@ -50,7 +50,7 @@ const getTimelineMessage = (username) => {
 	const timelineFound = usersTimeline.find((timeline) => timeline.username.toLowerCase() == username.toLowerCase())
 	return (timelineFound !== undefined)
 				? `${timelineFound.username}: ${timelineFound.timeline}`
-				: `${timelineFound.username}: No posts today`
+				: `${username}: No posts today`
 }
 
 // Looking for the user in the database
